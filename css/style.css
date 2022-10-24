@@ -20,4 +20,29 @@ main {
 }
 h1 {
     color: white;
+    padding-top: 1.875rem;
+}
+#total-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+    justify-content: space-between;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8.75rem;
+    height: 8.75rem;
+    background-color: #1389b2;
+    margin: 1.25rem;
+}
+.box__fizz {
+    background-color: #0cd6a1;
+}
+.box__buzz {
+    background-color: #ffd166;
+}
+.box__fizz-buzz {
+    background-color: #f0466f;
 }
