@@ -15,7 +15,7 @@ main {
     text-align: center;
 }
 .container {
-    max-width: 84.375rem;
+    max-width: 74.375rem;
     margin: auto;
 }
 h1 {
@@ -26,7 +26,6 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 2.5rem;
-    justify-content: space-between;
 }
 .box {
     display: flex;
@@ -35,7 +34,7 @@ h1 {
     width: 8.75rem;
     height: 8.75rem;
     background-color: #1389b2;
-    margin: 1.25rem;
+    margin: .9375rem;
 }
 .box__fizz {
     background-color: #0cd6a1;
