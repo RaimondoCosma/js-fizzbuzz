@@ -5,6 +5,7 @@ const box = 100;
 for (let i = 1; i <= box; i++) {
     const numberItem = document.createElement('div');
     numberItem.classList.add('box');
+    totalNumbers.append(numberItem);
     // Metto Fizz sui multipli di 3
     if (( i % 3 === 0) && !( i % 5 === 0)){
         console.log('Fizz');
@@ -24,7 +25,5 @@ for (let i = 1; i <= box; i++) {
         console.log(i)
         numberItem.innerHTML = i;
     }
-    // 1. Creo variabile che prenda il container dei numeri
-    totalNumbers.append(numberItem);
 };
 
