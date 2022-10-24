@@ -1,0 +1,23 @@
+/* -------------------
+    RESET
+------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------
+    COMMON
+------------------- */
+main {
+    background-color: #083b4c;
+    text-align: center;
+}
+.container {
+    max-width: 84.375rem;
+    margin: auto;
+}
+h1 {
+    color: white;
+}
